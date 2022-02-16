@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TugasLoginRegiaster">
         <activity
+            android:name=".activitydataproject"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Register"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
